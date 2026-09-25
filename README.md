@@ -25,12 +25,12 @@ A fast Streamlit export command center for STYLE for Marble & Granite.
 ## Run
 
     pip install -r requirements.txt
-    streamlit run app.py
+    streamlit run streamlit_app.py
 
 ## Deploy on Streamlit Community Cloud
 - Repository: mohamedabdelshafy4413-coder/STYLE-Global-Export-2026
 - Branch: main
-- Main file: app.py
+- Main file: streamlit_app.py
 
 ## Research discipline
 Market scores are strategic prioritization scores, not guaranteed success or reply probabilities. Shipment/buyer directories can contain broad or non-ideal entities; every account requires product/company verification before outreach. Trade, tariff, customs, technical and contact data should be re-verified before shipment or commercial commitment.
@@ -38,3 +38,7 @@ Market scores are strategic prioritization scores, not guaranteed success or rep
 
 ## Build validation
 GitHub Actions validates Python syntax, World 50 / Europe 50 integrity, campaign case-study inputs, and Streamlit startup health.
+
+
+## Deployment note
+The canonical Streamlit Community Cloud entrypoint is now `streamlit_app.py`. Dependencies are pinned to versions validated by GitHub Actions, external Google-font loading was removed, file watching is disabled on the server, and the CI smoke test checks both the Streamlit health endpoint and the root page.
