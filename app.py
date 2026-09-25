@@ -5,24 +5,23 @@ import plotly.graph_objects as go
 import streamlit as st
 from data import MARKETS, PRODUCTS, TOP_DETAILS, EVIDENCE, SOURCES
 
-st.set_page_config(page_title='STYLE | Global Export Intelligence 100', page_icon='◆', layout='wide', initial_sidebar_state='expanded')
+st.set_page_config(page_title='STYLE | Global Export Intelligence 2026', page_icon='◆', layout='wide', initial_sidebar_state='expanded')
 
 GOLD='#C6A466'; INK='#0D1720'; NAVY='#112E3C'; TEAL='#123F4A'; OLIVE='#59624B'; CREAM='#F4F0E8'; MUTED='#A7A096'; WHITE='#F9F8F4'
 
 st.markdown(f'''<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap');
-html,body,[class*="css"]{{font-family:'Inter',sans-serif}}
+html,body,[class*="css"]{{font-family:Arial,'Helvetica Neue',sans-serif}}
 .stApp{{background:radial-gradient(circle at 15% 0%,#173440 0,#0b151d 34%,#080f15 100%);color:{WHITE}}}
 section[data-testid="stSidebar"]{{background:linear-gradient(180deg,#0b151d,#101f28 55%,#121813);border-right:1px solid rgba(198,164,102,.22)}}
 section[data-testid="stSidebar"] *{{color:#ece8df}}
-h1,h2,h3{{font-family:'Manrope',sans-serif;letter-spacing:-.02em}}
+h1,h2,h3{{font-family:Arial,'Helvetica Neue',sans-serif;letter-spacing:-.02em}}
 .hero{{padding:28px 30px;border:1px solid rgba(198,164,102,.22);border-radius:24px;background:linear-gradient(135deg,rgba(17,46,60,.96),rgba(9,16,22,.96) 52%,rgba(89,98,75,.35));box-shadow:0 18px 70px rgba(0,0,0,.28);margin-bottom:18px}}
 .kicker{{color:{GOLD};font-weight:800;font-size:.77rem;letter-spacing:.16em;text-transform:uppercase}}
 .hero h1{{font-size:2.1rem;margin:.35rem 0 .2rem;color:#fff}}
 .hero p{{color:#d9d4cb;max-width:980px;font-size:1rem}}
 .metric-card{{background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.018));border:1px solid rgba(198,164,102,.18);border-radius:18px;padding:16px 18px;min-height:116px}}
 .metric-label{{color:#aaa397;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700}}
-.metric-value{{font-family:'Manrope';font-size:1.72rem;font-weight:800;color:#fff;margin-top:7px}}
+.metric-value{{font-family:Arial,'Helvetica Neue',sans-serif;font-size:1.72rem;font-weight:800;color:#fff;margin-top:7px}}
 .metric-note{{font-size:.76rem;color:#bfb9ae;margin-top:4px}}
 .section-label{{color:{GOLD};font-size:.76rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:22px 0 5px}}
 .insight{{border-left:3px solid {GOLD};padding:12px 16px;background:rgba(198,164,102,.07);border-radius:0 12px 12px 0;color:#dfdbd2}}
@@ -33,7 +32,7 @@ div.stButton>button{{border-radius:12px;border:1px solid rgba(198,164,102,.45);b
 hr{{border-color:rgba(255,255,255,.08)}}
 </style>''', unsafe_allow_html=True)
 
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def market_df():
     region_sets = {
         'GCC': {'Saudi Arabia','Kuwait','United Arab Emirates','Qatar','Oman','Bahrain'},
@@ -215,7 +214,7 @@ elif page=='Revenue Scenarios':
 
 elif page=='Lead File Analyzer':
     st.caption('Upload a CSV/XLSX. The analyzer prioritizes records using known market priority + contact completeness. It does not claim purchase intent.')
-    up=st.file_uploader('Upload lead file',type=['csv','xlsx','xls'])
+    up=st.file_uploader('Upload lead file',type=['csv','xlsx'])
     if up:
         if up.name.lower().endswith('.csv'): leads=pd.read_csv(up)
         else: leads=pd.read_excel(up)
