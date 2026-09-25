@@ -1,0 +1,190 @@
+WORLD_50 = [
+(1,"Saudi Arabia",98,"Tier A","GCC","Sunny Minya / Galala / New Halayeb","Very High","Very High","Direct import + project RFQs"),
+(2,"United Arab Emirates",96,"Tier A","GCC","Galala / Meli Grey / New Halayeb","Very High","Very High","Dense importer/trader base"),
+(3,"United States",95,"Tier A","North America","Galala / Meli Grey / New Halayeb","High","Very High","Largest worked marble/granite market"),
+(4,"Morocco",94,"Tier A","North Africa","Sunny Minya / Galala / New Halayeb","Very High","High","Strong Egypt-origin fit"),
+(5,"Kuwait",93,"Tier A","GCC","Sunny Minya / Galala / New Halayeb","Very High","High","Large HS680221 demand + Egypt fit"),
+(6,"South Korea",91,"Tier A","Asia","Galala / New Halayeb","High","Very High","Large marble/granite demand"),
+(7,"Australia",90,"Tier A","Oceania","Galala / Meli Grey","High","High","Premium-value market + recent RFQs"),
+(8,"Canada",90,"Tier A","North America","Galala / Meli Grey / New Halayeb","High","High","Fabricator/developer demand + recent Egypt granite RFQ"),
+(9,"Japan",88,"Tier A","Asia","New Halayeb / Ramady El Sherka","Medium","Very High","Large premium granite market"),
+(10,"Algeria",88,"Tier A","North Africa","Sunny Minya / Galala","Very High","High","Regional/Egypt fit"),
+(11,"Qatar",87,"Tier B","GCC","Sunny Minya / Galala / New Halayeb","Very High","High","Project-supply market"),
+(12,"Oman",86,"Tier B","GCC","Sunny Minya / Galala / Granite","High","High","Regional project/import market"),
+(13,"Israel",85,"Tier B","Levant","Galala / Granite","Medium","High","Documented worked granite demand"),
+(14,"Vietnam",84,"Tier B","Asia","Granite / Galala","Medium","Very High","Very large Volza buyer/shipment base"),
+(15,"Mexico",83,"Tier B","North America","Galala / Granite","Medium","Very High","Large buyer/shipment base"),
+(16,"Malaysia",82,"Tier B","Asia","Galala / New Halayeb","Medium","High","Worked granite imports + regional hub"),
+(17,"Singapore",82,"Tier B","Asia","Meli Grey / Galala / Granite","High","High","Premium project/import hub"),
+(18,"India",81,"Tier B","Asia","Blocks / Galala / Granite","Medium","High","Processor/import market"),
+(19,"China",80,"Tier B","Asia","Blocks / unique marble / granite","Medium","High","Processor/raw-stone opportunity"),
+(20,"Bahrain",79,"Tier B","GCC","Sunny Minya / Galala","High","Medium","Compact GCC project market"),
+(21,"Jordan",78,"Tier B","Levant","Sunny Minya / Galala","High","Medium","Regional buyer access"),
+(22,"Iraq",78,"Tier B","Levant","Sunny Minya / Galala / Granite","High","Medium","Construction/import demand"),
+(23,"Lebanon",77,"Tier B","Levant","Galala / Meli Grey","High","Medium","Stone-trade culture + Egypt proximity"),
+(24,"South Africa",77,"Tier B","Africa","Galala / Granite","Medium","High","Importer/distributor market"),
+(25,"New Zealand",76,"Tier B","Oceania","Galala / Meli Grey","Medium","High","Premium import market"),
+(26,"Colombia",76,"Tier B","Latin America","Galala / Meli Grey","Medium","High","Recent large stone RFQ signals"),
+(27,"Chile",75,"Tier B","Latin America","Galala / Granite","Medium","High","Import/distributor opportunity"),
+(28,"Brazil",74,"Tier B","Latin America","Egyptian marble differentiation","Medium","Very High","Large stone ecosystem; harder competition"),
+(29,"Peru",73,"Tier B","Latin America","Galala / Granite","Medium","Medium","Importer/project opportunity"),
+(30,"Indonesia",73,"Tier B","Asia","Galala / Marble slabs","Medium","High","Recent slab RFQs"),
+(31,"Thailand",72,"Tier C","Asia","Galala / Meli Grey","Medium","High","Hospitality/interior demand"),
+(32,"Philippines",72,"Tier C","Asia","Galala / Granite","Medium","High","Construction/import opportunity"),
+(33,"Taiwan",71,"Tier C","Asia","Meli Grey / Granite","Medium","High","Premium stone market"),
+(34,"Hong Kong",71,"Tier C","Asia","Meli Grey / Galala","Medium","High","Premium/specification market"),
+(35,"Kenya",70,"Tier C","East Africa","Sunny Minya / Galala / Granite","High","Medium","Recent RFQ activity + COMESA route"),
+(36,"Ghana",69,"Tier C","West Africa","Sunny Minya / Galala","High","Medium","Distributor/construction opportunity"),
+(37,"Nigeria",69,"Tier C","West Africa","Sunny Minya / Galala / Granite","High","High","Large construction base; higher commercial risk"),
+(38,"Côte d’Ivoire",68,"Tier C","West Africa","Sunny Minya / Galala","High","Medium","Abidjan construction/distribution"),
+(39,"Senegal",67,"Tier C","West Africa","Sunny Minya / Galala","High","Medium","Regional distribution opportunity"),
+(40,"Tanzania",67,"Tier C","East Africa","Sunny Minya / Granite","High","Medium","Construction/distributor opportunity"),
+(41,"Mauritius",66,"Tier C","Africa","Galala / Meli Grey","Medium","Medium","Premium hospitality/property niche"),
+(42,"Rwanda",65,"Tier C","East Africa","Sunny Minya / Galala","Medium","Medium","Regional projects; smaller market"),
+(43,"Zambia",65,"Tier C","Southern Africa","Sunny Minya / Granite","Medium","Medium","Distributor/project opportunity"),
+(44,"Ethiopia",64,"Tier C","East Africa","Sunny Minya / Granite","Medium","Medium","Large construction base; FX/logistics risk"),
+(45,"Djibouti",64,"Tier C","East Africa","Sunny Minya / Galala","Medium","Medium","Port/logistics gateway"),
+(46,"Panama",63,"Tier C","Latin America","Galala / Granite","Medium","Medium","Regional distribution hub"),
+(47,"Costa Rica",63,"Tier C","Latin America","Galala / Meli Grey","Medium","Medium","Premium residential/import market"),
+(48,"Dominican Republic",62,"Tier C","Caribbean","Galala / Meli Grey","Medium","Medium","Hospitality/resort projects"),
+(49,"Argentina",61,"Tier C","Latin America","Galala / Granite","Low-Medium","Medium","Stone market but macro/FX risk"),
+(50,"Uruguay",60,"Tier C","Latin America","Galala / Meli Grey","Low-Medium","Medium","Small premium niche")
+]
+
+EUROPE_50 = [
+(1,"France",97,"Golden","EU","Galala / Meli Grey / Sunny Minya","Very High","1,882 marble/granite/slab buyers; 6,826 shipments"),
+(2,"Germany",96,"Golden","EU","New Halayeb / Ramady / Meli Grey","Very High","2,996 buyers; 17,558 shipments"),
+(3,"United Kingdom",94,"Golden","Europe","Galala / Meli Grey / Ramady","Very High","Recent marble RFQs + dense stone trade"),
+(4,"Romania",93,"Golden","EU","New Halayeb / Galala / Sunny Minya","Very High","927 buyers; 9,599 shipments + Egypt granite proof"),
+(5,"Turkey",92,"Golden","Extended Europe","New Halayeb / Ramady / blocks","Very High","Strong Egypt granite imports + processor market"),
+(6,"Poland",90,"Golden","EU","New Halayeb / Ramady","High","Large worked-granite demand"),
+(7,"Switzerland",89,"Golden","Europe","Ramady / Meli Grey / Galala","High","Premium granite unit-value market"),
+(8,"Italy",88,"Golden","EU","Blocks / Galala / Granite","High","Processor/trader ecosystem"),
+(9,"Netherlands",87,"Golden","EU","Galala / Meli Grey / Granite","High","871 buyers; 4,252 shipments"),
+(10,"Belgium",86,"Golden","EU","Galala / Granite","High","385 buyers; 1,576 shipments"),
+(11,"Spain",85,"Strong","EU","Galala / Sunny Minya / Meli Grey","High","Processor + distributor market"),
+(12,"Bulgaria",84,"Strong","EU","New Halayeb / Sunny Minya","High","Documented Egypt granite imports"),
+(13,"Greece",83,"Strong","EU","Galala / Sunny Minya / Granite","High","Stone-processing/import ecosystem"),
+(14,"Sweden",82,"Strong","EU","Ramady / Meli Grey / Granite","Medium-High","Premium design + monument demand"),
+(15,"Austria",81,"Strong","EU","Meli Grey / Granite","Medium-High","Premium architecture/stone trade"),
+(16,"Czechia",80,"Strong","EU","Galala / Granite","Medium-High","Central-Europe distribution"),
+(17,"Portugal",80,"Strong","EU","Galala / Granite","Medium","Stone sector + import/export ecosystem"),
+(18,"Denmark",79,"Strong","EU","Meli Grey / Ramady","Medium","Premium architecture/design market"),
+(19,"Norway",79,"Strong","Europe","Granite / Meli Grey","Medium-High","Worked-granite imports"),
+(20,"Cyprus",78,"Strong","EU","Galala / Sunny Minya","High","Construction/hospitality + Mediterranean fit"),
+(21,"Ireland",77,"Wave 2","EU","Galala / Granite","Medium","Worked granite imports + construction"),
+(22,"Finland",76,"Wave 2","EU","Granite / Meli Grey","Medium","Premium/monument niche"),
+(23,"Hungary",76,"Wave 2","EU","Galala / Granite","Medium","Central Europe importer base"),
+(24,"Slovakia",75,"Wave 2","EU","Galala / Granite","Medium","Regional distributor market"),
+(25,"Slovenia",75,"Wave 2","EU","Galala / Meli Grey","Medium","Documented worked-marble imports"),
+(26,"Croatia",74,"Wave 2","EU","Galala / Granite","Medium","Hospitality/construction"),
+(27,"Serbia",74,"Wave 2","Europe","Sunny Minya / Granite","Medium","Construction/distributor opportunity"),
+(28,"Lithuania",73,"Wave 2","EU","Granite / Meli Grey","Medium","Baltic distribution"),
+(29,"Latvia",72,"Wave 2","EU","Granite / Galala","Medium","Baltic distribution"),
+(30,"Estonia",72,"Wave 2","EU","Granite / Meli Grey","Medium","Baltic premium niche"),
+(31,"Ukraine",70,"Selective","Europe","Granite / Sunny Minya","Medium","Reconstruction potential; elevated country risk"),
+(32,"Georgia",69,"Selective","Extended Europe","Galala / Granite","Medium","Caucasus distribution corridor"),
+(33,"Azerbaijan",69,"Selective","Extended Europe","Galala / Granite","Medium","Premium/project market"),
+(34,"Armenia",68,"Selective","Extended Europe","Galala / Granite","Medium","Documented worked-marble imports"),
+(35,"Moldova",67,"Selective","Europe","Sunny Minya / Granite","Medium","Romania-adjacent distributor route"),
+(36,"Albania",66,"Selective","Europe","Galala / Sunny Minya","Medium","Hospitality/construction"),
+(37,"Bosnia & Herzegovina",66,"Selective","Europe","Galala / Granite","Medium","Regional construction"),
+(38,"North Macedonia",65,"Selective","Europe","Galala / Granite","Medium","Balkan distribution"),
+(39,"Montenegro",64,"Selective","Europe","Galala / Meli Grey","Medium","Hospitality/property niche"),
+(40,"Kosovo",64,"Selective","Europe","Galala / Granite","Medium","Regional construction"),
+(41,"Luxembourg",63,"Radar","EU","Meli Grey / Galala","Low-Medium","Small premium market"),
+(42,"Malta",63,"Radar","EU","Galala / Meli Grey","Medium","Hospitality/construction niche"),
+(43,"Iceland",61,"Radar","Europe","Granite / Meli Grey","Low-Medium","Small premium market"),
+(44,"Kazakhstan",60,"Radar","Extended Europe","Granite / Galala","Medium","Large shipment base but longer logistics"),
+(45,"Russia",58,"Compliance Hold","Europe","Granite / Marble","High","Large buyer base; sanctions/compliance review required"),
+(46,"Belarus",50,"Compliance Hold","Europe","Granite / Marble","Medium","Sanctions/compliance review required"),
+(47,"Liechtenstein",48,"Radar","Europe","Meli Grey","Low","Very small market"),
+(48,"Andorra",46,"Radar","Europe","Galala / Meli Grey","Low","Very small market"),
+(49,"Monaco",45,"Radar","Europe","Meli Grey / Galala","Low","Luxury niche, tiny buyer universe"),
+(50,"San Marino",44,"Radar","Europe","Galala / Granite","Low","Tiny market")
+]
+
+CASE_STUDY = {
+"title":"STYLE 5,000+ Email Global Outbound Campaign",
+"markets":50,
+"emails_sent_min":5000,
+"positive_replies":10,
+"near_order":1,
+"future_potential":9,
+"products":["Sunny Minya","Galala","Meli Grey","New Halayeb Granite","Ramady El Sherka Granite"],
+"interpretation":[
+"At 5,000+ sends and 10 positive commercial replies, the observed positive-conversation rate is at most 0.20%.",
+"One near-order from 5,000+ sends implies an observed near-order signal below 0.02%.",
+"The next system should optimize account quality, recent import activity, decision-maker reachability and country-specific messaging rather than raw volume.",
+"Campaign data is not yet enough to estimate country-level conversion because exact sends/replies by country were not provided."
+]
+}
+
+SWOT_2026 = {
+"Strengths":[
+"Egyptian-origin product portfolio with beige, grey and granite options",
+"Quarry/source positioning and export-ready formats",
+"Geographic access to GCC, Europe and Africa",
+"Documented market acceptance for Egyptian stone in Turkey, Romania, Morocco and other markets",
+"Five-product campaign focus is easier to position than a generic full catalogue"
+],
+"Weaknesses":[
+"5,000+ email campaign produced only 10 positive commercial replies; list quality/message-market fit needs tightening",
+"Country-level funnel data is missing, so winners/losers cannot yet be statistically separated",
+"Website/proof/technical documentation consistency remains critical to conversion",
+"Generic mass outreach risks low relevance and deliverability degradation",
+"Decision-maker targeting and shipment recency were not consistently enforced in the first global campaign"
+],
+"Opportunities":[
+"Volza shows tens of thousands of shipment-verified buyers globally with daily-refreshed data",
+"Recent StoneContact RFQs show active requirements in Saudi Arabia, UK, Canada and Australia",
+"Buyer shortlisting can shift from company-name lists to recent-shipment + HS-code + decision-maker intelligence",
+"Egypt-origin proof can be used as a market-priority multiplier",
+"Build separate importer, project, processor and monument campaigns"
+],
+"Threats":[
+"Turkey, India, Brazil, China, Italy, Spain and Portugal compete on price, processing or brand equity",
+"Some trade databases include freight forwarders or broad product descriptions; manual validation is mandatory",
+"Sanctions/compliance issues affect Russia/Belarus outreach",
+"Commodity-style pricing can compress margins",
+"Email deliverability can deteriorate if high-volume outreach continues without validation and segmentation"
+]
+}
+
+VERIFIED_SIGNALS = [
+{"market":"Global","signal":"Volza Granite/Marble buyers","value":"64,563 buyers","date":"Sep 22 2026","detail":"Daily-refreshed shipment intelligence; USA 19,762 buyers / 458,016 shipments, Vietnam 3,506 / 111,471, Germany 1,539 / 5,197, France 1,115 / 3,583."},
+{"market":"Saudi Arabia","signal":"Volza marble/granite buyers","value":"636 buyers / 4,458 shipments","date":"Sep 2026","detail":"76 active buyers in Jul 2024-Jun 2025; separate slab category shows 1,034 buyers / 5,848 shipments."},
+{"market":"United Arab Emirates","signal":"Volza marble/granite/slab buyers","value":"1,385 buyers / 6,998 shipments","date":"Sep 2026","detail":"251 active buyers in Jul 2024-Jun 2025."},
+{"market":"Germany","signal":"Volza marble/granite/slab buyers","value":"2,996 buyers / 17,558 shipments","date":"Sep 2026","detail":"344 active buyers in Jul 2024-Jun 2025."},
+{"market":"France","signal":"Volza marble/granite/slab buyers","value":"1,882 buyers / 6,826 shipments","date":"Sep 2026","detail":"239 active buyers in Jul 2024-Jun 2025."},
+{"market":"Romania","signal":"Volza marble/granite/slab buyers","value":"927 buyers / 9,599 shipments","date":"Sep 2026","detail":"209 active buyers in Jul 2024-Jun 2025."},
+{"market":"Morocco","signal":"Volza marble/granite/slab buyers","value":"772 buyers / 3,407 shipments","date":"Sep 2026","detail":"83 active buyers in Jul 2024-Jun 2025."},
+{"market":"Netherlands","signal":"Volza marble/granite/slab buyers","value":"871 buyers / 4,252 shipments","date":"Aug 2026","detail":"129 active buyers in Jul 2024-Jun 2025."},
+{"market":"Belgium","signal":"Volza marble/granite buyers","value":"385 buyers / 1,576 shipments","date":"Sep 2026","detail":"35 active buyers in Jul 2024-Jun 2025."},
+{"market":"Saudi Arabia","signal":"StoneContact RFQs","value":"Multiple large 2026 RFQs","date":"Sep 2026","detail":"Examples include 2,361 m² granite paving + 159 m² setts, 10 containers of marble, and 18,920 m² granite tiles."},
+{"market":"Canada","signal":"StoneContact RFQs","value":"Recent Egypt granite + developer demand","date":"Jun-Aug 2026","detail":"Fantastic White Granite 450 m²; Montreal developer around 600 m² and states ~50 containers/year imports."},
+{"market":"Australia","signal":"StoneContact RFQ","value":"Recent marble slab inquiry","date":"Sep 15 2026","detail":"Buyer seeking marble slabs similar to Arabescato/Lilac."}
+]
+
+METHODOLOGY = [
+("Recent shipment/buyer activity",30),
+("Product fit with STYLE five",20),
+("Egypt-origin compatibility",15),
+("Import-demand scale",15),
+("Decision-maker/data accessibility",8),
+("Recent RFQ/buying signals",5),
+("Logistics/market access",4),
+("Commercial/compliance risk",3)
+]
+
+SOURCES_2026 = [
+("WITS 680291 world imports 2024","https://wits.worldbank.org/trade/comtrade/en/country/ALL/year/2024/tradeflow/Imports/partner/WLD/product/680291"),
+("WITS 680293 world imports 2024","https://wits.worldbank.org/trade/comtrade/en/country/ALL/year/2024/tradeflow/Imports/partner/WLD/product/680293"),
+("WITS 680221 world imports 2024","https://wits.worldbank.org/trade/comtrade/en/country/ALL/year/2024/tradeflow/Imports/partner/WLD/product/680221"),
+("WITS Egypt-origin 680293 2024","https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/EGY/product/680293"),
+("Volza Global Granite/Marble Buyers","https://www.volza.com/p/granite-or-marble/buyers-directory/"),
+("StoneContact Saudi Buyers","https://www.stonecontact.com/buyers/from-saudi-arabia"),
+("StoneContact UK Buyers","https://www.stonecontact.com/buyers/from-united-kingdom"),
+("StoneContact Canada Buyers","https://www.stonecontact.com/buyers/from-canada"),
+("StoneContact Australia Buyers","https://www.stonecontact.com/buyers/natural-stone-category/from-australia")
+]
