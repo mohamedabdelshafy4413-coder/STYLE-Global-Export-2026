@@ -34,3 +34,7 @@ A fast Streamlit export command center for STYLE for Marble & Granite.
 
 ## Research discipline
 Market scores are strategic prioritization scores, not guaranteed success or reply probabilities. Shipment/buyer directories can contain broad or non-ideal entities; every account requires product/company verification before outreach. Trade, tariff, customs, technical and contact data should be re-verified before shipment or commercial commitment.
+
+
+## Build validation
+GitHub Actions validates Python syntax, World 50 / Europe 50 integrity, campaign case-study inputs, and Streamlit startup health.
